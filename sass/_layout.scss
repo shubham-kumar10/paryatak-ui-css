@@ -5,10 +5,18 @@
 	box-shadow: var(--shadow-dark);
 
 	min-height: 70vh;
+
+	@media only screen and (max-width: $breakpoint-largest) {
+		margin: 0;
+	}
 }
 
 .content {
 	display: flex;
+
+	@media only screen and (max-width: $breakpoint-medium) {
+		flex-direction: column;
+	}
 }
 
 .header {

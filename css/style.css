@@ -57,6 +57,9 @@ body {
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
   min-height: 70vh; }
+  @media only screen and (max-width: 75em) {
+    .container {
+      margin: 0; } }
 
 .content {
   display: flex; }
